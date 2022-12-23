@@ -1,6 +1,6 @@
 export default function Navbar({ loggedIn }: { loggedIn: boolean }) {
   return (
-    <nav className="navbar navbar-expand-lg bg-light">
+    <nav className="navbar navbar-expand-lg bg-light mb-3">
       <div className="container-fluid">
         <a className="navbar-brand" href="#">News & journalism</a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"

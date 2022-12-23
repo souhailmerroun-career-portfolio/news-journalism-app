@@ -1,6 +1,7 @@
 module.exports = {
   "stories": [
-    "../src/ui/bootstrap/components/**/*.stories.@(js|jsx|ts|tsx)"
+    "../src/ui/bootstrap/components/**/*.stories.@(js|jsx|ts|tsx)",
+    "../src/react/components/**/*.stories.@(js|jsx|ts|tsx)"
   ],
   "addons": [
     "@storybook/addon-links",
